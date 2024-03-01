@@ -14,7 +14,7 @@
       devShells."${system}".default = pkgs.mkShell {
         buildInputs = with pkgs; [
           inotify-tools
-          (texlive.combine { inherit (texlive) scheme-medium standalone tikz-cd; })
+          # (texlive.combine { inherit (texlive) scheme-medium standalone tikz-cd; })
           forester.packages."${system}".default
         ];
         shellHook = ''
