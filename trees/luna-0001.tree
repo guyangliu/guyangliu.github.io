@@ -1,0 +1,17 @@
+\title{How to manage lean project}
+\p{
+    Install toolchain and set to default: \code{elan default [toolchain]}.
+}
+\p{
+    Create new lean project: \code{lake new [projectname]}.
+}
+\p{
+    In lean, project name supposed to be like "xx-yy". For example, lean-demo is a good name.
+}
+\p{
+    Build project: \code{lake build}.
+}
+\p{
+    Execute project: \code{lake exec [targetname]}. This target name can be check in \code{lakefile.lean}.
+}
+

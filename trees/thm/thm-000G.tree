@@ -1,6 +1,0 @@
-\title{Injectivity equivalent to Kernel Triviality}
-\taxon{Theorem}
-\import{macros}
-\p{
-    Let #{T: V \to W} be a linear map. Then #{T} is injective if and only if #{\nulls T = \set{0}}.
-}

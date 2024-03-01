@@ -1,15 +1,6 @@
-\title{The Rabbit Hole}
-\author{CAIMEO}
-\scope{
-    \put\transclude/numbered{false}
-    \put\transclude/expanded{false}
-    \transclude{caimeo}
-    \put\transclude/expanded{true}
-    \transclude{about}
+\title{Luna}
+\author{Lunaticabs}
+\p{
+    Abstraction makes one lunatic.
 }
-\scope{
-    \put\transclude/numbered{true}
-    \transclude{posts}
-    \transclude{notes}
-    \transclude{projects}
-}
+\transclude{luna-0001}

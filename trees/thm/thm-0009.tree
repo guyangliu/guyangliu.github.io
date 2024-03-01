@@ -1,6 +1,0 @@
-\title{Basis length is invariant}
-\taxon{Theorem}
-\p{
-    Let #{V} be a finite-dimensional vector space.
-    Then every basis of #{V} has the same length.
-}

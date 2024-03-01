@@ -1,5 +1,5 @@
 # Forester
-CAIMEO's mathematics, physics, and computer science notes and blog posts.
+Lunaticabs's blog posts.
 
 ## Build
 ```bash

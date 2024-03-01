@@ -1,5 +1,0 @@
-\title{Spanning List contains a basis}
-\taxon{Theorem}
-\p{
-    Every spanning list in a vector space can be reduced to a basis.
-}
