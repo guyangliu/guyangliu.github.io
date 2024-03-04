@@ -4,7 +4,7 @@
     which strictly adheres to the mathematical model of substitution of values for variables and reduction of sub-expressions without side effects, 
     and execution of IO actions, which rely on an external system to interact with the world.
 }
-\p{https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting}
+\p{[from here](https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting)}
 \p{
     Question: Can I say the thing can be calculate uses evaluation, and the thing can't uses execution?
 }
