@@ -1,4 +1,4 @@
-name: github pages
+name: Publish
 on:
   push:
     branches:
@@ -19,11 +19,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 1
-
-      
-
-      - name: "Check `tlmgr` version"
-        run: tlmgr --version
 
       - name: "Set-up OCaml"
         uses: ocaml/setup-ocaml@v2
