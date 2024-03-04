@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>158</anchor>   <addr>luna-0004</addr>  <route>luna-0004.xml</route>   <title>An analogy: cook and counter worker</title>  </frontmatter> <mainmatter><p>https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects</p><p>
+    That makes me think about C-lang. There is also a <code>main</code> function, where we can put all the IO action if we'd like to.
+    That is &quot;to write C in functional way&quot; (just joking) .
+</p><p>
+    When talking about The world analogy, we can say Lean is a world-orented language.
+</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>159</anchor>   <addr>luna-0002</addr>  <route>luna-0002.xml</route>   <title>Deal with effect in Pure Functional ways</title>  </frontmatter> <mainmatter><p/><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>160</anchor>   <addr>luna-0003</addr>  <route>luna-0003.xml</route>   <title>Evaluation and Execution in Lean</title>  </frontmatter> <mainmatter><p>
+    Lean distinguishes between evaluation of expressions, 
+    which strictly adheres to the mathematical model of substitution of values for variables and reduction of sub-expressions without side effects, 
+    and execution of IO actions, which rely on an external system to interact with the world.
+</p><p>https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting</p><p>
+    Question: Can I say the thing can be calculate uses evaluation, and the thing can't uses execution?
+</p><p>
+    Halting or not?
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>161</anchor>   <addr>luna-0004</addr>  <route>luna-0004.xml</route>   <title>An analogy: cook and counter worker</title>  </frontmatter> <mainmatter><p>https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects</p><p>
+    That makes me think about C-lang. There is also a <code>main</code> function, where we can put all the IO action if we'd like to.
+    That is &quot;to write C in functional way&quot; (just joking) .
+</p><p>
+    When talking about The world analogy, we can say Lean is a world-orented language.
+</p></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>
