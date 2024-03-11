@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>170</anchor>   <addr>luna-0003</addr>  <route>luna-0003.xml</route>   <title>Evaluation and Execution in Lean</title>  </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>171</anchor>  <addr>luna-0003</addr><route>luna-0003.xml</route>    <title>Evaluation and Execution in Lean</title>   </frontmatter> <mainmatter><p>
     Lean distinguishes between evaluation of expressions, 
     which strictly adheres to the mathematical model of substitution of values for variables and reduction of sub-expressions without side effects, 
     and execution of IO actions, which rely on an external system to interact with the world.
-</p><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting" type="external">from here</link></p><p>
+</p><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting" type="external">Lean FP offical book</link></p><p>
     Question: Can I say the thing can be calculate uses evaluation, and the thing can't uses execution?
 </p><p>
     Halting or not?
-</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>171</anchor>   <addr>luna-0002</addr>  <route>luna-0002.xml</route>   <title>Deal with effect in Pure Functional ways</title>  </frontmatter> <mainmatter><p/><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>172</anchor>   <addr>luna-0003</addr>  <route>luna-0003.xml</route>   <title>Evaluation and Execution in Lean</title>  </frontmatter> <mainmatter><p>
+</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>172</anchor>  <addr>luna-0002</addr><route>luna-0002.xml</route>    <title>Deal with effect in Pure Functional ways</title>   </frontmatter> <mainmatter><p/><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>173</anchor>  <addr>luna-0003</addr><route>luna-0003.xml</route>    <title>Evaluation and Execution in Lean</title>   </frontmatter> <mainmatter><p>
     Lean distinguishes between evaluation of expressions, 
     which strictly adheres to the mathematical model of substitution of values for variables and reduction of sub-expressions without side effects, 
     and execution of IO actions, which rely on an external system to interact with the world.
-</p><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting" type="external">from here</link></p><p>
+</p><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#anatomy-of-a-greeting" type="external">Lean FP offical book</link></p><p>
     Question: Can I say the thing can be calculate uses evaluation, and the thing can't uses execution?
 </p><p>
     Halting or not?
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>173</anchor>   <addr>luna-0004</addr>  <route>luna-0004.xml</route>   <title>An analogy: cook and counter worker</title>  </frontmatter> <mainmatter><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects" type="external">from here</link></p><p>
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>174</anchor>  <addr>luna-0004</addr><route>luna-0004.xml</route>    <title>An analogy: cook and counter worker</title>   </frontmatter> <mainmatter><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects" type="external">Lean FP offical book</link></p><p>
     That makes me think about C-lang. There is also a <code>main</code> function, where we can put all the IO action if we'd like to.
     That is &quot;to write C in functional way&quot; (just joking) .
 </p><p>
