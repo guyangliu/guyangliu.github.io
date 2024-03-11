@@ -3,6 +3,10 @@
 \p{
     Abstraction makes one lunatic.
 }
+\p{
+    About this website: This website is a “forest” created using the Forester tool. To navigate my forest, 
+    press Ctrl-K to search for specific topics or definitions. Or click the nodes to expand the trees of various subjects.
+}
 \transclude{luna-0001}
 \transclude{luna-0002}
 \transclude{luna-0005}

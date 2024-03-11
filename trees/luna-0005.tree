@@ -1,2 +1,8 @@
 \title{What is a Functor, and a Monad?}
-https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ
+\p{[Haskell and Category Theory, Wechat article by Caimeo](https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ)}
+\p{
+    Functional Programming borrowed the concept of Monad from Category Theory, and use this structure as a tool to deal with effects.
+}
+\p{
+    In Functional Programming, Monad is a Type Class, which means it's used to generate new types from a exist one.
+}
