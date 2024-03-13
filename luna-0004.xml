@@ -18,4 +18,8 @@
     That is &quot;to write C in functional way&quot; (just joking) .
 </p><p>
     When talking about The world analogy, we can say Lean is a world-orented language.
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>162</anchor>  <addr>luna-0005</addr><route>luna-0005.xml</route>    <title>What is a Functor, and a Monad?</title>   </frontmatter> <mainmatter><p><link href="https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ" type="external">Haskell and Category Theory, Wechat article by Caimeo</link></p><p>
+    Functional Programming borrowed the concept of Monad from Category Theory, and use this structure as a tool to deal with effects.
+</p><p>
+    In Functional Programming, Monad is a Type Class, which means it's used to generate new types from a exist one.
 </p></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>

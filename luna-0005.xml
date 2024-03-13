@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>188</anchor>  <addr>luna-0005</addr><route>luna-0005.xml</route>    <title>What is a Functor, and a Monad?</title>   </frontmatter> <mainmatter><p><link href="https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ" type="external">Haskell and Category Theory, Wechat article by Caimeo</link></p><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>194</anchor>  <addr>luna-0005</addr><route>luna-0005.xml</route>    <title>What is a Functor, and a Monad?</title>   </frontmatter> <mainmatter><p><link href="https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ" type="external">Haskell and Category Theory, Wechat article by Caimeo</link></p><p>
     Functional Programming borrowed the concept of Monad from Category Theory, and use this structure as a tool to deal with effects.
 </p><p>
     In Functional Programming, Monad is a Type Class, which means it's used to generate new types from a exist one.
-</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="true"><frontmatter><anchor>189</anchor>  <addr>index</addr><route>index.xml</route>   <authors><author>Lunaticabs</author> </authors> <title>Luna</title>   </frontmatter> <mainmatter><p>
-    Abstraction makes one lunatic.
-</p><p>
-    About this website: This website is a “forest” created using the Forester tool. To navigate my forest, 
-    press Ctrl-K to search for specific topics or definitions. Or click the nodes to expand the trees of various subjects.
-</p><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>190</anchor>  <addr>luna-0001</addr><route>luna-0001.xml</route>    <title>How to manage lean project</title>   </frontmatter> <mainmatter><p>
-    Install toolchain and set to default: <code>elan default [toolchain]</code>.
-</p><p>
-    Create new lean project: <code>lake new [projectname]</code>.
-</p><p>
-    In lean, project name supposed to be like &quot;xx-yy&quot;. For example, lean-demo is a good name.
-</p><p>
-    Build project: <code>lake build</code>.
-</p><p>
-    Execute project: <code>lake exec [targetname]</code>. This target name can be check in <code>lakefile.lean</code>.
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>191</anchor>  <addr>luna-0002</addr><route>luna-0002.xml</route>    <title>Deal with effect in Pure Functional ways</title>   </frontmatter> <mainmatter><p/><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>192</anchor>  <addr>luna-0003</addr><route>luna-0003.xml</route>    <title>Evaluation and Execution in Lean</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>195</anchor>  <addr>luna-0002</addr><route>luna-0002.xml</route>    <title>Deal with effect in Pure Functional ways</title>   </frontmatter> <mainmatter><p/><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>196</anchor>  <addr>luna-0003</addr><route>luna-0003.xml</route>    <title>Evaluation and Execution in Lean</title>   </frontmatter> <mainmatter><p>
     Lean distinguishes between evaluation of expressions, 
     which strictly adheres to the mathematical model of substitution of values for variables and reduction of sub-expressions without side effects, 
     and execution of IO actions, which rely on an external system to interact with the world.
@@ -27,12 +12,12 @@
     Question: Can I say the thing can be calculate uses evaluation, and the thing can't uses execution?
 </p><p>
     Halting or not?
-</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>193</anchor>  <addr>luna-0004</addr><route>luna-0004.xml</route>    <title>An analogy: cook and counter worker</title>   </frontmatter> <mainmatter><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects" type="external">Lean FP offical book</link></p><p>
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>197</anchor>  <addr>luna-0004</addr><route>luna-0004.xml</route>    <title>An analogy: cook and counter worker</title>   </frontmatter> <mainmatter><p><link href="https://lean-lang.org/functional_programming_in_lean/hello-world/running-a-program.html#functional-programming-vs-effects" type="external">Lean FP offical book</link></p><p>
     That makes me think about C-lang. There is also a <code>main</code> function, where we can put all the IO action if we'd like to.
     That is &quot;to write C in functional way&quot; (just joking) .
 </p><p>
     When talking about The world analogy, we can say Lean is a world-orented language.
-</p></mainmatter> </tree></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>194</anchor>  <addr>luna-0005</addr><route>luna-0005.xml</route>    <title>What is a Functor, and a Monad?</title>   </frontmatter> <mainmatter><p><link href="https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ" type="external">Haskell and Category Theory, Wechat article by Caimeo</link></p><p>
+</p></mainmatter> </tree><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>198</anchor>  <addr>luna-0005</addr><route>luna-0005.xml</route>    <title>What is a Functor, and a Monad?</title>   </frontmatter> <mainmatter><p><link href="https://mp.weixin.qq.com/s/SH_nAxrEHMviZaCHYCw3BQ" type="external">Haskell and Category Theory, Wechat article by Caimeo</link></p><p>
     Functional Programming borrowed the concept of Monad from Category Theory, and use this structure as a tool to deal with effects.
 </p><p>
     In Functional Programming, Monad is a Type Class, which means it's used to generate new types from a exist one.
