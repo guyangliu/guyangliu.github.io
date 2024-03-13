@@ -1,0 +1,2 @@
+\title{language points in Lean}
+\p{\code{partial def}: when we focus on the effect we want but don't ask the function to be terminated, we use partial def, so that Lean won't require a proof that it terminates.}

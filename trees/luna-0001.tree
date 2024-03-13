@@ -9,9 +9,12 @@
     In lean, project name supposed to be like "xx-yy". For example, lean-demo is a good name.
 }
 \p{
-    Build project: \code{lake build}.
+    Build project: \code{lake build [target name]}. If target name is not given, lean compiler will build default target which is decleared in \code{lakefile.lean}.
 }
 \p{
     Execute project: \code{lake exec [targetname]}. This target name can be check in \code{lakefile.lean}.
+}
+\p{
+    [Lean FP offical book](https://lean-lang.org/functional_programming_in_lean/hello-world/starting-a-project.html)
 }
 
