@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>212</anchor>  <addr>luna-0008</addr><route>luna-0008.xml</route>    <title>Monoid</title>   </frontmatter> <mainmatter><p>
+    Monoid has a operater . : C x C -&gt; C .Monoid needs to satisfy Associativity and Identity.
+    In Haskell, the operation(.) on a monoid is <strong>mappend</strong>(monoid-append). The identity element named after the list monoid, <strong>mempty</strong></p></mainmatter> <backmatter><contributions/> <context><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>213</anchor>  <addr>luna-0007</addr><route>luna-0007.xml</route>    <title>Category Theory in Haskell</title>   </frontmatter> <mainmatter><tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>214</anchor>  <addr>luna-0008</addr><route>luna-0008.xml</route>    <title>Monoid</title>   </frontmatter> <mainmatter><p>
+    Monoid has a operater . : C x C -&gt; C .Monoid needs to satisfy Associativity and Identity.
+    In Haskell, the operation(.) on a monoid is <strong>mappend</strong>(monoid-append). The identity element named after the list monoid, <strong>mempty</strong></p></mainmatter> </tree></mainmatter> </tree></context> <related/> <backlinks/> <references/></backmatter></tree>
