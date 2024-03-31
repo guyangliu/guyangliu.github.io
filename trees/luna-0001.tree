@@ -13,6 +13,7 @@
 }
 \p{
     Execute project: \code{lake exec [targetname]}. This target name can be check in \code{lakefile.lean}.
+    Or you can exec the binary in \code{./.lake/build/bin/[bin name]}
 }
 \p{
     [Lean FP offical book](https://lean-lang.org/functional_programming_in_lean/hello-world/starting-a-project.html)

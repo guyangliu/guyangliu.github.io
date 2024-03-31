@@ -1,2 +1,11 @@
 \title{language points in Lean}
 \p{\code{partial def}: when we focus on the effect we want but don't ask the function to be terminated, we use partial def, so that Lean won't require a proof that it terminates.}
+
+\p{
+    When you want to \code{#eval} something, make sure how to display it has decleared. Most Type in stdlib defaultly decleared, but for your own Type, you can try to
+    declear it by \code{deriving Repr}. If this doesn't work, you should declear it in metaprogramming way.
+}
+
+\p{
+    Lean supports Overloading uses type classes. A type class describes a collection of overloadable operations.
+}

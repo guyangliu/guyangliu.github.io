@@ -1,0 +1,5 @@
+\title{Monoid}
+\p{
+    Monoid has a operater . : C x C -> C .Monoid needs to satisfy Associativity and Identity.
+    In Haskell, the operation(.) on a monoid is \strong{mappend}(monoid-append). The identity element named after the list monoid, \strong{mempty}
+}
